@@ -9,17 +9,32 @@
 </head>
 <body>
     <div id="contenedorPadre">
-        <h3>asd</h3>
-    </div>
-    <div class="contenedor">
-        <div class="Calculadora">
-            <h1>Calculá tu IMC</h1><br>
-            Peso <input type="number" placeholder="Peso(Kg)" id="peso"><br>
-            Altura <input type="number" placeholder="Altura(M.cm)" id="altura"><br><br>
-            <input type="button" value="Calcular" onclick="calcular_imc()" class="btn btn-primary"><br><br>
-            <span class="calculo"> </span>
+        
+        <div id="info" class="bloques">
+            <ul>
+                <li>Carne</li>
+                <li>Pollo</li>
+                <li>Verduras</li>
+            </ul>
         </div>
+        <div id="segundoContenedor" class="bloques">
+            <div id="imagenMuestra">
+                <img src="imagenMuestra.jpg" alt="" id="imgs">
+            </div>
+            <div class="contenedor">
+                <div class="Calculadora">
+                    <h1>Calculá tu IMC</h1><br>
+                    Peso <input type="number" placeholder="Peso(Kg)" id="peso"><br>
+                    Altura <input type="number" placeholder="Altura(M.cm)" id="altura"><br><br>
+                    <input type="button" value="Calcular" onclick="calcular_imc()" class="btn btn-primary"><br><br>
+                    <span class="calculo"> </span>
+                </div>
+            </div>
+        </div>
+        
     </div>
+    
+    
     <script src="script.js"></script>
 </body>
 </html>
